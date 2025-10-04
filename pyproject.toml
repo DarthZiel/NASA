@@ -1,0 +1,10 @@
+[project]
+name = "nasa"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.13"
+dependencies = [
+    "django-cors-headers>=4.9.0",
+    "djangorestframework>=3.16.1",
+    "pyvips>=3.0.0",
+]
