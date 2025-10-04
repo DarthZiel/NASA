@@ -15,15 +15,3 @@ class DeepZoomImageDetailView(generics.RetrieveAPIView):
     serializer_class = DeepZoomImageSerializer
 
 
-def get_tile(request, pk, z, x, y):
-    from .models import DeepZoomImage
-    try:
-        obj = DeepZoomImage.objects.get(pk=pk)
-    except DeepZoomImage.DoesNotExist:
-        raise Http404
-
-    tile_path = os.path.join(obj.base_dir, str(z), f"{x}_{y}.png")
-    if not os.path.exists(tile_path):
-        raise Http404
-
-    return FileResponse(open(tile_path, "rb"), content_type="image/png")
