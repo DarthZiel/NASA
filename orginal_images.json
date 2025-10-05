@@ -1,0 +1,38 @@
+[
+    {
+        "id": 3,
+        "name": "1000",
+        "dzi_path": "/home/nurzhan/Документы/projects/NASA/config/media/tiles/1000/image.dzi",
+        "base_dir": "/home/nurzhan/Документы/projects/NASA/config/media/tiles/1000/image_files",
+        "width": 319,
+        "height": 158,
+        "created_at": "2025-10-04T16:42:36.224584Z",
+        "updated_at": "2025-10-04T16:42:36.224613Z",
+        "dzi_url": "/media/tiles/1000/image.dzi",
+        "image_url": "/media/tiles/1000/image_files"
+    },
+    {
+        "id": 2,
+        "name": "sus",
+        "dzi_path": "media/tiles/BlackMarble/image.dzi",
+        "base_dir": "",
+        "width": null,
+        "height": null,
+        "created_at": "2025-10-04T11:58:02.718467Z",
+        "updated_at": "2025-10-04T11:58:02.718530Z",
+        "dzi_url": "/media/tiles/sus/image.dzi",
+        "image_url": "/media/tiles/sus/image_files"
+    },
+    {
+        "id": 1,
+        "name": "BlackMarble",
+        "dzi_path": "media/tiles/BlackMarble/image.dzi",
+        "base_dir": "",
+        "width": null,
+        "height": null,
+        "created_at": "2025-10-04T11:39:38.460282Z",
+        "updated_at": "2025-10-04T11:39:38.460351Z",
+        "dzi_url": "/media/tiles/BlackMarble/image.dzi",
+        "image_url": "/media/tiles/BlackMarble/image_files"
+    }
+]

@@ -6,5 +6,7 @@ requires-python = ">=3.13"
 dependencies = [
     "django-cors-headers>=4.9.0",
     "djangorestframework>=3.16.1",
+    "djoser>=2.3.3",
+    "drf-yasg>=1.21.11",
     "pyvips>=3.0.0",
 ]

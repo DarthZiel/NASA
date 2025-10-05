@@ -1,0 +1,12 @@
+{
+    "id": 3,
+    "name": "1000",
+    "dzi_path": "/home/nurzhan/Документы/projects/NASA/config/media/tiles/1000/image.dzi",
+    "base_dir": "/home/nurzhan/Документы/projects/NASA/config/media/tiles/1000/image_files",
+    "width": 319,
+    "height": 158,
+    "created_at": "2025-10-04T16:42:36.224584Z",
+    "updated_at": "2025-10-04T16:42:36.224613Z",
+    "dzi_url": "/media/tiles/1000/image.dzi",
+    "image_url": "/media/tiles/1000/image_files"
+}
